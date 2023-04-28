@@ -1,7 +1,7 @@
 
 
 import './search-bar.styles.css'
-const SearchBar = (className,placeholder,OnSearchChangeHandler) => {
+const SearchBar = ({className,placeholder,OnSearchChangeHandler}) => {
 
     return (
       <div>
