@@ -6,10 +6,10 @@ const SearchBar = (className,placeholder,OnSearchChangeHandler) => {
     return (
       <div>
         <input
-          className={`search-bar ${this.props.className}`}
+          className={`search-bar ${className}`}
           type="search"
-          placeholder={this.props.placeholder}
-          onChange={this.props.OnSearchChangeHandler}
+          placeholder={placeholder}
+          onChange={OnSearchChangeHandler}
         />
       </div>
     );
