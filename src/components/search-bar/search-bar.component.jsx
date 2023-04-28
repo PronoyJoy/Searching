@@ -1,7 +1,8 @@
-import { Component } from "react";
+
+
 import './search-bar.styles.css'
-class SearchBar extends Component {
-  render() {
+const SearchBar = (className,placeholder,OnSearchChangeHandler) => {
+
     return (
       <div>
         <input
@@ -13,5 +14,5 @@ class SearchBar extends Component {
       </div>
     );
   }
-}
+
 export default SearchBar;
